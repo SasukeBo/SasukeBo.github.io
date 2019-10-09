@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "go-graphql 自定义 scalar"
 date:   2019-07-13 16:11:00 +0800
 categories: golang

@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "PostgreSQL Config 备忘录"
 date:   2019-07-03 20:35:00 +0800
 categories: postgresql
+permalink: /:categories/:title
 ---
 
 ### 安装路径
