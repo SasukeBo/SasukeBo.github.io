@@ -32,7 +32,6 @@ paginate_path: /_posts:num/
 markdown: kramdown
 # theme: minima
 
-# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.17.0"
 minimal_mistakes_skin: "contrast"
 locale: "zh"
@@ -94,18 +93,4 @@ comments:
   provider: "staticman_v2"
   staticman:
     branch: "master"
-    endpoint: "https://dev.staticman.net/v3/entry/github/SasukeBo/SasukeBo.github.io/master"
-  allowedFields: ["name", "email", "url", "message"]
-  commitMessage: "New comment by {fields.name}"
-  filename: "comment-{@timestamp}"
-  format: "yaml"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ["name", "email", "message"]
-  transforms:
-    email: md5
+    endpoint: "https://dev.staticman.net/v3/entry/SasukeBo/SasukeBo.github.io/master"
