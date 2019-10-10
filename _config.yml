@@ -91,8 +91,6 @@ category_archive:
 repository: SasukeBo/SasukeBo.github.io
 staticman:
   branch: "master"
+  endpoint: "https://dev.staticman.net/v3/entry/github/SasukeBo/SasukeBo.github.io/master"
 comments:
   provider: "staticman_v2"
-  staticman:
-    branch: "master"
-    endpoint: "https://dev.staticman.net/v2/entry/github/SasukeBo/SasukeBo.github.io/master"
