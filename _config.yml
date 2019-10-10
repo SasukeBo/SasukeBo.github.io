@@ -30,12 +30,15 @@ github: [metadata]
 markdown: kramdown
 # theme: minima
 
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.17.0"
 minimal_mistakes_skin: "air"
 locale: "zh"
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
