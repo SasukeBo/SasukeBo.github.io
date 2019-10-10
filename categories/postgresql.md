@@ -1,6 +1,6 @@
 ---
 title: PostgreSQL
 layout: category
-permalink: /categories/PostgreSQL/
+permalink: /categories/postgresql/
 taxonomy: PostgreSQL
 ---

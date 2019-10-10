@@ -41,3 +41,12 @@
 .author__urls a:hover {
   text-decoration: none;
 }
+
+a {
+  color: $darker-gray;
+}
+
+a:visited,
+a:hover {
+  color: $dark-gray;
+}
