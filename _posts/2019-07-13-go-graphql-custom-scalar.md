@@ -1,10 +1,12 @@
 ---
 title:  "go-graphql 自定义 scalar"
 date:   2019-07-13 16:11:00 +0800
-categories: golang
+categories: Golang
+header:
+  overlay_image: /assets/images/GolangBanner.png
 ---
 
-学习笔记，写这篇笔记时才刚入门golang，请多指教。
+在 beego 中使用 graphql，定义 custom scalar
 
 ### 场景
 

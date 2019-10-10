@@ -1,15 +1,17 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "Posts"
+  - title: "Years"
     url: /year-archive/
   - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
+  # - title: "Tags"
+    # url: /tags/
+  # - title: "Pages"
+    # url: /page-archive/
+  # - title: "External Link"
+    # url: https://google.com
+
+docs:
+  - title: PostgreSQL
+    url: /categories/postgresql
+  - title: Golang
+    url: /categories/golang

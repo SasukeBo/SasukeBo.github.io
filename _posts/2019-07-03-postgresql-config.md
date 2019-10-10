@@ -1,9 +1,13 @@
 ---
 title:  "PostgreSQL Config 备忘录"
 date:   2019-07-03 20:35:00 +0800
-categories: postgresql
+categories: PostgreSQL
 permalink: /:categories/:title
+header:
+  overlay_image: /assets/images/PGBanner.jpg
 ---
+
+记录Mac OS上配置PostgreSQL数据库。
 
 ### 安装路径
 

@@ -21,10 +21,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sasuke.cn" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  SasukeBo
-teaser: /assets/images/default-teaser.png
+# teaser: /assets/images/default-teaser.png
 logo: "/assets/images/logo.png"
 breadcrumbs: true
 github: [metadata]
+paginate: 5
+paginate_path: /_posts:num/
 
 # Build settings
 markdown: kramdown
@@ -32,7 +34,7 @@ markdown: kramdown
 
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.17.0"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "contrast"
 locale: "zh"
 
 plugins:
@@ -57,12 +59,24 @@ search: true
 author:
   name: "汪波"
   avatar: "/assets/images/avatar.jpg"
-  bio: "志向要远些，目标要近些，与其躺在原地做梦，不如逐步靠近梦想。"
+  bio: >-
+    志向要远些，目标要近些。
+    与其躺在原地做梦，不如逐步靠近梦想。
   location: "中国广东深圳"
   links:
-    - label: "Github"
+    - label: "SasukeBo"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SasukeBo"
+    - label: "809754210"
+      icon: "fab fa-fw fa-qq"
+      url: "javascript:;"
+    - label: "13242931765"
+      icon: "fab fa-fw fa-weixin"
+      url: "javascript:;"
+    - label: "SasukeBo@163.com"
+      icon: "fas fa-fw fa-at"
+      url: "javascript:;"
+
 
 footer:
   links:
@@ -76,9 +90,13 @@ defaults:
       path: ""
       type: posts
     values:
+      toc: true
       layout: single
       read_time: true
-      author_profile: true
-      share: true
+      # share: true
       permalink: /:categories/:title
       # comments: true
+
+category_archive:
+  type: liquid
+  path: "/categories/"
