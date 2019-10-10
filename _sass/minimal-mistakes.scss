@@ -1,0 +1,75 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.16.5 by Michael Rose
+ * Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+ * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
+*/
+
+/* Variables */
+@import "minimal-mistakes/variables";
+
+/* Mixins and functions */
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/mixins";
+
+/* Core CSS */
+@import "minimal-mistakes/reset";
+@import "minimal-mistakes/base";
+@import "minimal-mistakes/forms";
+@import "minimal-mistakes/tables";
+@import "minimal-mistakes/animations";
+
+/* Components */
+@import "minimal-mistakes/buttons";
+@import "minimal-mistakes/notices";
+@import "minimal-mistakes/masthead";
+@import "minimal-mistakes/navigation";
+@import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
+@import "minimal-mistakes/syntax";
+
+/* Utility classes */
+@import "minimal-mistakes/utilities";
+
+/* Layout specific */
+@import "minimal-mistakes/page";
+@import "minimal-mistakes/archive";
+@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/print";
+
+.social-icons {
+  .fa-map-marker-alt {
+    color: $behance-color;
+  }
+
+  .fa-qq {
+    color: $lastfm-color;
+  }
+
+  .fa-weixin {
+    color: $success-color;
+  }
+
+  .fa-at {
+    color: $info-color;
+  }
+}
+
+.home-description {
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.author__avatar img {
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  margin: 5px;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.author__urls a:hover {
+  text-decoration: none;
+}
