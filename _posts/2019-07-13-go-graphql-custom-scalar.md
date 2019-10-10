@@ -3,8 +3,8 @@ title:  "go-graphql 自定义 scalar"
 date:   2019-07-13 16:11:00 +0800
 categories: Golang
 header:
-  overlay_image: /assets/images/GolangBanner.png
-  teaser: /assets/images/GolangBanner.png
+  overlay_image: /assets/images/banners/golang.png
+  teaser: /assets/images/banners/golang.png
 ---
 
 在 beego 中使用 graphql，定义 custom scalar

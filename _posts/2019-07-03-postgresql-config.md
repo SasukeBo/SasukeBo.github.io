@@ -3,8 +3,8 @@ title:  "PostgreSQL Config 备忘录"
 date:   2019-07-03 20:35:00 +0800
 categories: PostgreSQL
 header:
-  overlay_image: /assets/images/PGBanner.jpg
-  teaser: /assets/images/PGBanner.jpg
+  overlay_image: /assets/images/banners/postgresql.jpg
+  teaser: /assets/images/banners/postgresql.jpg
 comments: true
 ---
 
