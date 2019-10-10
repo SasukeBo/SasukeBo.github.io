@@ -32,8 +32,8 @@ paginate_path: /_posts:num/
 markdown: kramdown
 # theme: minima
 
-theme: minimal-mistakes-jekyll
-# remote_theme: "mmistakes/minimal-mistakes@4.17.0"
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.17.0"
 minimal_mistakes_skin: "contrast"
 locale: "zh"
 
