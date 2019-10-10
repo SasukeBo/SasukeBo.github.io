@@ -63,6 +63,7 @@ $ bundle exec jekyll serve
 ```
 
 本地服务启动后浏览器访问[http://localhost:4000](http://localhost:4000)即可看到博客首页。
+
 **Note:** 本地服务可以自动编译修改或新增的文件，但修改`_config.yml`文件是需要重启本地服务的。
 {: .notice--danger}
 
