@@ -24,7 +24,7 @@ github_username:  SasukeBo
 teaser: /assets/images/default-teaser.png
 logo: "/assets/images/logo.png"
 breadcrumbs: true
-# github: [metadata]
+github: [metadata]
 
 # Build settings
 markdown: kramdown
