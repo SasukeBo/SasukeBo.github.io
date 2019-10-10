@@ -9,7 +9,7 @@ comments:
       type: "date"
       options:
         format: "iso8601"
-  moderation: true
+  moderation: false
   path: "_data/comments/{options.slug}"
   requiredFields: ["name", "email", "message"]
   transforms:
