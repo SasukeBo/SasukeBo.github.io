@@ -42,18 +42,6 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
 search: true
 
 author:
@@ -95,8 +83,29 @@ defaults:
       read_time: true
       # share: true
       permalink: /:categories/post/:title
-      # comments: true
+      comments: true
 
 category_archive:
   type: liquid
   path: "/categories/"
+
+repository: SasukeBo/SasukeBo.github.io
+comments:
+  provider: "staticman_v2"
+  staticman:
+    branch: "master"
+    endpoint: "https://dev.staticman.net/v3/entry/github/SasukeBo/SasukeBo.github.io/master"
+  allowedFields: ["name", "email", "url", "message"]
+  commitMessage: "New comment by {fields.name}"
+  filename: "comment-{@timestamp}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "email", "message"]
+  transforms:
+    email: md5

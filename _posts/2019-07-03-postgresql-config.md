@@ -4,6 +4,7 @@ date:   2019-07-03 20:35:00 +0800
 categories: PostgreSQL
 header:
   overlay_image: /assets/images/PGBanner.jpg
+comments: true
 ---
 
 记录Mac OS上配置PostgreSQL数据库。
