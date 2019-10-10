@@ -4,6 +4,7 @@ date:   2019-07-13 16:11:00 +0800
 categories: Golang
 header:
   overlay_image: /assets/images/GolangBanner.png
+  teaser: /assets/images/GolangBanner.png
 ---
 
 在 beego 中使用 graphql，定义 custom scalar
