@@ -1,0 +1,43 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.social-icons {
+  .fa-map-marker-alt {
+    color: $behance-color;
+  }
+
+  .fa-qq {
+    color: $lastfm-color;
+  }
+
+  .fa-weixin {
+    color: $success-color;
+  }
+
+  .fa-at {
+    color: $info-color;
+  }
+}
+
+.home-description {
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.author__avatar img {
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  margin: 5px;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.author__urls a:hover {
+  text-decoration: none;
+}
