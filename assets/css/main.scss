@@ -9,19 +9,19 @@
 
 .social-icons {
   .fa-map-marker-alt {
-    color: $behance-color;
+    color: $behance-color !important;
   }
 
   .fa-qq {
-    color: $lastfm-color;
+    color: $lastfm-color !important;
   }
 
   .fa-weixin {
-    color: $success-color;
+    color: $success-color !important;
   }
 
   .fa-at {
-    color: $info-color;
+    color: $info-color !important;
   }
 }
 
@@ -42,6 +42,7 @@
   text-decoration: none;
 }
 
+/*
 a {
   color: $darker-gray;
 }
@@ -50,10 +51,17 @@ a:visited,
 a:hover {
   color: $dark-gray;
 }
+*/
 
 .study-plan {
-  border-left: 6px solid $youtube-color;
+  border-left: 6px solid $link-color;
   padding-left: 8px;
+
+  span {
+    color: #fff;
+    background: $link-color;
+    display: inline-block;
+  }
 }
 
 .plan-list {
