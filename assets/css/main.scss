@@ -50,3 +50,25 @@ a:visited,
 a:hover {
   color: $dark-gray;
 }
+
+.study-plan {
+  border-left: 6px solid $youtube-color;
+  padding-left: 8px;
+}
+
+.plan-list {
+  font-size: 0.85rem;
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.plan-list li:before {
+  content: "#";
+  padding-right: 0.5rem;
+  font-weight: bolder;
+}
+
+.plan-list li {
+  list-style: none;
+  margin-bottom: 0.1rem;
+}
