@@ -259,7 +259,7 @@ if err != nil {
 ```
 调用参数包含一个`context.Context`对象，服务端可以根据这一参数做更多事情。
 
-1. 服务端流式RPC
+2. 服务端流式RPC
 
 ```go
 rect := &pb.Rectangle{
@@ -283,7 +283,7 @@ for {
 
 调用服务端流式RPC，返回的不是一个消息对象，而是一个流，通过这个流可以读取到服务端发送的一系列消息对象。
 
-1. 客户端流式RPC
+3. 客户端流式RPC
 
 ```go
 // Create a random number of random points
@@ -315,7 +315,7 @@ log.Printf("Route summary: %v", reply)
 
 与服务端流式发送想对应的，客户端流式调用RPC最后在后的服务端响应时，需要调用`CloseAndRecv()`方法。
 
-1. 双向流式RPC
+4. 双向流式RPC
 
 ```go
 stream, err := client.RouteChat(context.Background())
