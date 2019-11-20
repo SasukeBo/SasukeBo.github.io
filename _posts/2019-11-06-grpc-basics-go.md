@@ -4,7 +4,7 @@ date:   2019-11-06 19:31:00 +0800
 categories: gRPC
 header:
   overlay_image: /assets/images/banners/grpc-banner.svg
-  teaser: /assets/images/banners/grpc-banner.svg
+  teaser: /assets/images/teaser/grpc-logo1.png
 comments: true
 ---
 
